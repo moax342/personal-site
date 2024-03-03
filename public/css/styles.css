@@ -1,0 +1,191 @@
+body {
+  background-color: #eeeeee;
+  font-family: monospace;
+  font-family: 'Baloo 2', cursive;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+
+.contaner {
+  position: absolute;
+  width: 90%;
+  top: 0;
+}
+
+.dis {
+  display: none;
+  visibility: hidden;
+}
+
+.center {
+  margin: 0 40%;
+}
+
+.text-container {
+  width: 80%;
+  margin: 70px 0 -80px 10%;
+}
+
+.text-contenet {
+  display: inline-block;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: -8%;
+  font-size: 1.2rem;
+}
+
+.text-contact {
+  display: block;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+
+.cover {
+  width: 40%;
+  opacity: 0.8;
+  margin-top: -5px;
+}
+
+.logo {
+  margin-top: -10px;
+  position: absolute;
+  top: 0;
+  left: 9%;
+  width: 10%;
+}
+
+.log-contact {
+  position: relative;
+  top: 30%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  top: 39%;
+  left: 30%;
+  opacity: 0.8;
+  font-size: 400%;
+  color: #020205;
+}
+
+.aboutText {
+  display: inline-block;
+  position: absolute;
+  letter-spacing: 1px;
+  top: 58%;
+  left: 42%;
+  right: 10%;
+  color: #393e46;
+  line-height: 25px;
+  font-size: 1.1rem;
+}
+
+.naVitem {
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  margin-right: 3%;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2024;
+}
+
+a:hover {
+  color: #c00000;
+}
+
+.contact-logo {
+  margin-top: -180px
+}
+
+@media screen and (min-width:360px) and (max-width:450px) {
+  .cover {
+    display: none;
+  }
+
+  .dis {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 10%;
+  }
+
+  .aboutText {
+    margin-top: 50px;
+    top: 40%;
+    left: 5%;
+  }
+
+  h1 {
+    top: 10%;
+    left: 10%;
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    margin-top: 1px;
+    width: 30%;
+  }
+
+  .text-container {
+    font-size: 1.1rem;
+  }
+
+  .text-contenet {
+    margin-top: 20%;
+    margin-bottom: -19%;
+  }
+
+  .contact-logo {
+    margin-top: 0.2%;
+  }
+
+}
+
+@media screen and (min-width:451px) and (max-width:1000px) {
+  .cover {
+    display: none;
+  }
+
+  .aboutText {
+    margin-top: 50px;
+    top: 60%;
+    left: 20%;
+  }
+
+  .dis {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 10%;
+  }
+
+  h1 {
+    top: 5%;
+    left: 3%;
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .text-container {
+    font-size: 1.1rem;
+  }
+
+  .text-contenet {
+    margin-top: 9%;
+    margin-bottom: -14%;
+  }
+
+  .contact-logo {
+    margin-top: 5%;
+  }
+}
